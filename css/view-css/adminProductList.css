@@ -1,0 +1,188 @@
+header {
+    padding: 20px;
+    background-color: #0734b8;
+    color: white;
+}
+
+h1 {
+    display: block;
+    width: 32%;
+    font-size: 55px;
+    margin: 30px;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #ccc;
+}
+
+p {
+    text-align: justify;
+    font-size: 16px;
+    text-overflow: ellipsis;
+    max-width: 435px;
+}
+
+#p-price {
+    font-size: 30px;
+    color: #e85923;
+}
+
+#p-brand{
+    font-size: 14px;
+    color: #888888;
+}
+
+#p-name{
+    color: #888888
+}
+
+.list-actions{
+    margin: 30px;
+}
+
+.list-actions label {
+    font-weight: bold;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.list-container {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.material-icons.md-18 { font-size: 18px; }
+.material-icons.md-24 { font-size: 24px; }
+.material-icons.md-36 { font-size: 36px; }
+.material-icons.md-48 { font-size: 48px; }
+
+.p-action {
+    float: right;
+    cursor: pointer;
+}
+
+.add-btn{
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    z-index: 100;
+    border-radius: 100%;
+    padding: 20px;
+    color: white;
+    background-color: #e85923;
+    transition: all 300ms;
+    cursor: pointer;
+}
+.add-btn:hover{
+    background-color: white;
+    box-shadow: 0px 0px 3px 2px #e85923;
+    color: #ec6f43;
+}
+
+#p-edit{
+    color: #e85923;
+    text-shadow: 0px 1px 0px black;
+    transition: all 300ms;
+}
+
+#p-edit:hover{
+    color: blue;
+}
+
+#p-delete{
+    text-shadow: 0px 1px 0px black;
+    color: #e85923;
+}
+
+#p-delete:hover{
+    color: red;
+    transition: all 300ms;
+}
+
+.list-container .product-item{
+    position: relative;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 1px 8px 2px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-basis: 21%;
+    transition: all 400ms;
+}
+
+.list-container .product-item:hover {
+    box-shadow: 0px 1px 8px 2px #ec6f43;
+}
+
+.product-wrapper{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.product-img {
+    flex-grow: 0;
+}
+
+.product-img img{
+    margin: 0px;
+    border-radius: 10px 10px 0px 0px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.product-info {
+    margin-left: 10px;
+    margin-right: 10px;
+    flex-grow: 5;
+    flex-basis: 40%;
+}
+
+.product-actions{
+    position: absolute;
+    top: 10px;
+    right: 14px;
+}
+
+strong{
+    font-size: 25px;
+}
+
+footer{
+    background: linear-gradient(128deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);
+    color: white;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+datalist{
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="text"]{
+    border-radius: 5px;
+    padding: 0px 14px;
+    outline: none;
+}
+
+input[type="text"].search-input{
+    border-radius: 5px 0px 0px 5px;
+    flex-grow: 2;
+}
+
+.list-form{
+    display: flex;
+    flex-direction: row;
+}
+
+.search-btn{
+    color: white;
+    background-color: #e85923;
+    border-radius: 0px 5px 5px 0px;
+    padding-top: 5px;
+}
