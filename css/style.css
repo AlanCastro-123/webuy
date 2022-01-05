@@ -2,6 +2,10 @@
     background-image: linear-gradient(25deg, #0734b8 0%, #7a7bba 100%);
     
 }
+.navbar-gradient2{
+    background-image: linear-gradient(25deg, #ec6f43 0%, #e85923 100%);
+    
+}
 body {
     background-color: purple
 }
@@ -25,8 +29,8 @@ body {
     top: 15px
 }
 .shop-bag {
-    background-color: #000;
-    color: #fff;
+    background-color: #ec6f43;
+    color: #0734b8;
     height: 50px;
     width: 50px;
     font-size: 25px;
