@@ -31,7 +31,7 @@
     font-size: 12px
 }
 
-input[type="text"]{
+.form-inputs input[type="text"]{
     display: flex;
     flex-grow: 1;
     padding: 8px;
@@ -59,6 +59,14 @@ input[type="text"]{
 
 .logo-wrapper{
     cursor: pointer;
+}
+
+.logo-wrapper a{
+    width: 85%;
+}
+
+.logo-wrapper img{
+    width: 100%;
 }
 
 .nav-item a{
