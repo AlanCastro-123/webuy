@@ -21,6 +21,14 @@
     color: black;
     padding: 1rem;
   }
+
+  .module-2 {
+    display: flex;
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #0734b8 0%, #7a7bba 25%, #ec6f43 75%, #e85923 100%);
+    color: black;
+    padding: 1rem;
+  }
   
   .img-cart {
     border-radius: 50%;
@@ -51,10 +59,16 @@
     background-color: #dd372b;
     border: none;
     color: white;
-    padding: 18px;
+    padding: 10px;
     text-align: center;
     text-decoration: none;
     font-size: 16px;
     cursor: pointer;
+    border-radius: 12px;
+  }
+
+  .cart-items-container{
+    background-color: lightgray;
+    padding: 2%;
     border-radius: 12px;
   }
