@@ -2,7 +2,7 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    background-color: #fbfbfb !important;
+    background-color: #fbfbfb
 }
 
 :root {
@@ -14,4 +14,11 @@ body{
     --body-font: 'Nunito', sans-serif;
     --normal-font-size: 1rem;
     --z-fixed: 100
+}
+
+footer{
+    background: linear-gradient(128deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);
+    color: white;
+    border-top: 1px solid #ccc;
+    padding: 10px;
 }
