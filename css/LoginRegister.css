@@ -1,10 +1,7 @@
 .body-register {
-   /* background: rgb(7,52,184);
-    background: radial-gradient(circle, 
-            rgba(7,52,184,1) 0%, 
-            rgba(122,123,186,1) 35%, 
-            rgba(236,111,67,1) 70%, 
-            rgba(232,89,35,1) 100%); */
+    min-height: 100vh;
+    background: rgb(7,52,184);
+    background: linear-gradient(36deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);    
             font-family: 'Nunito', sans-serif;
 }
 
@@ -95,10 +92,9 @@ nav {
 
 .register-container {
     width: 35%;
-    height: 500px; 
     margin: 0px auto 10px auto;
     text-align: center;
-    background-color: rgb(122, 123, 186, 0.5) !important;
+    background-color: rgb(255, 255, 255, 0.5) !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
@@ -115,6 +111,16 @@ nav {
 
 .register-container .btn-primary {
     width: 25% !important;
+}
+
+.register-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.register-container a:hover{
+    text-decoration: none;
+    color: #0734b8;
 }
 
 
