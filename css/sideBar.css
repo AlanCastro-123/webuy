@@ -29,6 +29,10 @@ h1 {
   transition: 0.5s;
 }
 
+.flexible-container {
+  flex-shrink: 1;
+}
+
 .main {
   padding: 1rem;
 }
@@ -182,6 +186,7 @@ a {
 
   .show {
     width: calc(var(--nav-width) + 156px);
+    padding-right: 35px;
   }
 
   .body-pd {
