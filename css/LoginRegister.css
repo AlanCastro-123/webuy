@@ -1,7 +1,6 @@
 .body-register {
     min-height: 100vh;
-    background: rgb(7,52,184);
-    background: linear-gradient(36deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);    
+    background-color: white; 
             font-family: 'Nunito', sans-serif;
 }
 
@@ -16,12 +15,33 @@ nav {
 
 
 /* Login View CSS */
-.login-container {
-    width: 75%;
-    height: 400px;
-    margin: 10px auto;
+
+.login-form-container{
+    width: 35%;
+    height: 4em;
+    background: linear-gradient(90deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);   
+    margin: 0px auto;
+    margin-top: 50px;
     text-align: center;
-    border-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+}
+
+.login-form-container h2 {
+    color: white;
+    margin: 0px !important;
+}
+
+.login-container {
+    width: 35%;
+    margin: 0px auto 10px auto;
+    margin-bottom: 50px;
+    text-align: center;
+    background-color: rgb(122, 123, 186, 0.5) !important;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 20px;
 }
 
 .login-form * {
@@ -51,8 +71,13 @@ nav {
 
 .btn-primary {
     width: 200px !important;
-    background-color: #7a7bba !important;
+    background-color: #e85923 !important;
     margin-bottom: 10px !important;
+}
+
+.login-container .btn-primary{
+    width: 40%;
+    padding-right: 28px;
 }
 
 .btn-primary:hover {
@@ -69,16 +94,29 @@ nav {
     margin-left: 5px;
 }
 
+.login-container a{
+    text-decoration: none;
+    color: white;
+}
+
+.login-container a:hover{
+    text-decoration: none;
+    color: #0734b8;
+}
+
+
 
 
 
 
 /* Register View CSS */
+
 .register-form-container {
     width: 35%;
     height: 4em;
-    background-color: rgba(0, 0, 0, 0.8);
-    margin: 0px auto !important;
+    background: linear-gradient(90deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);   
+    margin: 0px auto;
+    margin-top: 50px;
     text-align: center;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -93,8 +131,9 @@ nav {
 .register-container {
     width: 35%;
     margin: 0px auto 10px auto;
+    margin-bottom: 50px;
     text-align: center;
-    background-color: rgb(255, 255, 255, 0.5) !important;
+    background-color: rgb(122, 123, 186, 0.5) !important;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     padding: 20px;
@@ -136,4 +175,12 @@ footer {
 footer img {
     height: 10vh;
     margin: 15px;
+}
+
+
+footer{
+    background: linear-gradient(128deg, rgba(7,52,184,1) 0%, rgba(122,123,186,1) 100%);
+    color: white;
+    border-top: 1px solid #ccc;
+    padding: 10px;
 }

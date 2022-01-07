@@ -239,6 +239,15 @@
     flex-direction: row;
 }
 
+.product-link {
+    text-decoration: none;
+    color: black;
+}
+
+.product-link:hover {
+    color: black;
+}
+
 .product-img {
     flex-grow: 0;
 }
